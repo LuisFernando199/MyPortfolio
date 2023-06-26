@@ -34,7 +34,7 @@ const Navbar = () => {
         </li>
         <li className="hover:text-red-400">
           <Link to="works" smooth={true} duration={500}>
-          Proyectos
+            Proyectos
           </Link>
         </li>
         <li className="hover:text-red-400">
@@ -109,7 +109,6 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-white"
               href="mailto:luisfermartinez_91@hotmail.com"
-              
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -117,7 +116,7 @@ const Navbar = () => {
           <li className="w-[140px] h-[60px] flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-slate-500">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/src/assets/CV.pdf"
+              href="/assets/CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
