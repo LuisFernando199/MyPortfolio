@@ -16,7 +16,7 @@ const Works = () => {
           <p className="text-4xl font-bold inline border-b-4 text-white border-red-600">
             Proyectos
           </p>
-          <p className="text-lg py-6">Aquí puedes ver algunos proyectos echos con <span className="text-yellow-400">React y JavaScript</span> </p>
+          <p className="text-lg py-6">Aquí puedes ver algunos proyectos hechos con <span className="text-yellow-400">React y JavaScript</span> </p>
         </div>
         {/**Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
