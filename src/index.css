@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/*waterfall layer*/
+@layer base {
+    body {
+        font-family: 'Kanit', sans-serif;
+        
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+    @keyframes animated-text {
+        0% {
+          background-position: -100% 50%;
+        }
+        50% {
+          background-position: 200% 50%;
+        }
+        100% {
+          background-position: -100% 50%;
+        }
+      }
+      
+      .animated-text {
+        background-image: linear-gradient(to right, #fff, transparent);
+        background-repeat: no-repeat;
+        background-size: 200% 100%;
+        animation: animated-text 8s linear infinite;
+      }
+      
+  }
+
+  .content-div {
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    
+  }
+
+  .content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(252, 128, 139, 0.8),
+        hsla(0, 89%, 58%, 0.8)   
+    )!important;
+}
